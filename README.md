@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Harmony Music Academy
 
-## Getting Started
+Welcome to the Harmony Music Academy webpage! This project is a fun and creative client-side application built using Next.js and styled with the Epic Aceternity UI framework. It's a great way to practice and get started with Next.js while creating a beautiful and responsive website for a music academy.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Project Structure](#project-structure)
+- [Live Preview](#live-preview)
+- [Contributing](#contributing)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Responsive and modern UI design
+- Interactive hero section
+- Featured courses section
+- Instructor profiles
+- Student testimonials
+- Upcoming webinars
+- Footer with contact information and social media links
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Technologies Used
 
-## Learn More
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Aceternity UI](https://ui.aceternity.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
 
-To learn more about Next.js, take a look at the following resources:
+## Project Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+harmony-music-academy/
+├── public/
+│   ├── next.svg
+│   ├── vercel.svg
+├── src/
+│   ├── components/
+│   │   ├── ui/
+│   │   ├── FeaturedCourses.tsx
+│   │   ├── Footer.tsx
+│   │   ├── HeroSection.tsx
+│   │   ├── Instructors.tsx
+│   │   ├── Navbar.tsx
+│   │   ├── Testimonials.tsx
+│   │   ├── Webinars.tsx
+│   │   ├── WhyChooseUs.tsx
+│   │   └── ...
+│   ├── data/
+│   │   ├── music_courses.json
+│   │   ├── music_school_content.ts
+│   │   └── ...
+│   ├── types/
+│   │   └── tailwindcss.d.ts
+│   ├── utils/
+│   │   └── cn.ts
+├── .gitignore
+├── package.json
+├── README.md
+├── tsconfig.json
+├── next.config.mjs
+└── ...
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Live Preview
 
-## Deploy on Vercel
+A live preview of this website is hosted [here](https://harmony-music-academy.vercel.app)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request.
