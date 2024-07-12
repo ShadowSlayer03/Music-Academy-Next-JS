@@ -23,7 +23,7 @@ const Instructors = () => {
           Meet Our Instructors
         </h2>
         <p className="mt-4 text-xl leading-relaxed text-gray-300 text-center">
-          Our instructors don't just teach you music.<br /> They guide you in
+          Our instructors don&#39;t just teach you music.<br /> They guide you in
           discovering and expressing your inner artistry.
         </p>
         <div className="flex flex-row items-center justify-center mt-10 mb-10 w-full">
