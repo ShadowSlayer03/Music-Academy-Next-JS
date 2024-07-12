@@ -30,6 +30,7 @@ Welcome to the Harmony Music Academy webpage! This project is a fun and creative
 
 ## Project Structure
 
+```plaintext
 harmony-music-academy/
 ├── public/
 │   ├── next.svg
@@ -60,6 +61,7 @@ harmony-music-academy/
 ├── tsconfig.json
 ├── next.config.mjs
 └── ...
+```
 
 ## Live Preview
 
